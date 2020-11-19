@@ -1,0 +1,130 @@
+// padding
+.py-1 {
+  padding: 1rem 0;
+}
+.py-2 {
+  padding: 2rem 0;
+}
+.py-3 {
+  padding: 3rem 0;
+}
+.py-4 {
+  padding: 4rem 0;
+}
+
+// margin
+.my-1 {
+  margin: 1rem 0;
+}
+.my-2 {
+  margin: 2rem 0;
+}
+.my-3 {
+  margin: 3rem 0;
+}
+.my-4 {
+  margin: 4rem 0;
+}
+
+// colors
+span {
+  &.secondary {
+    color: $secondary;
+  }
+
+  &.money {
+    color: $money;
+  }
+}
+
+.bg-lightblue {
+  background: $lightblue;
+}
+.bg-main {
+  background: $main-color;
+}
+.bg-secondary {
+  background: $secondary;
+}
+.bg-light {
+  background: $light;
+}
+.bg-dark {
+  background: $dark;
+}
+.bg-medium {
+  background: $medium;
+}
+
+// container
+.container {
+  max-width: $width;
+  margin: auto;
+  overflow: hidden;
+  padding: 0 1.5rem;
+}
+
+// btn
+%btn-shared {
+  display: inline-block;
+  padding: 0.8rem 2rem;
+  transition: all 0.5s;
+  border: none;
+  cursor: pointer;
+  border-radius: 0.25rem;
+}
+
+.btn {
+  &-main {
+    @extend %btn-shared;
+    color: #333;
+    background-color: $main-color;
+  }
+  &-light {
+    @extend %btn-shared;
+    color: #333;
+    background-color: $light;
+  }
+  &-dark {
+    @extend %btn-shared;
+    color: #f4f4f4;
+    background-color: $dark;
+  }
+}
+
+.section-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.heading {
+  font-size: 2rem;
+  padding-top: 1rem;
+  color: $secondary;
+}
+
+.section-text {
+  padding-bottom: 1rem;
+  font-weight: 300;
+}
+
+.underline {
+  border-bottom: 2px solid $medium;
+}
+
+.list li {
+  padding: 0.5rem 0;
+  border-bottom: #555 dotted 1px;
+  margin-right: 0;
+
+  &:last-child {
+    border-bottom: none;
+  }
+
+  &:hover a:hover {
+    color: $lightpink;
+  }
+}

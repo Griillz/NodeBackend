@@ -1,0 +1,57 @@
+@import "config";
+@import "utilities";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+  line-height: 1.6;
+  background: $main-color;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+.heading {
+  width: 100%;
+  text-align: center;
+}
+
+.textbox {
+  width: 100%;
+  padding: 5px 5px;
+  margin: 5px 0px;
+
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+.heading {
+  width: 100%;
+  text-align: center;
+  .api {
+    tr {
+      color: $money;
+      background-color: black;
+    }
+    th {
+      padding: 10px 10px;
+    }
+  }
+}

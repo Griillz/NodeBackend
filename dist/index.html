@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>User API</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="heading">
+        <h1>User API</h1>
+        <table class="api">
+          <tr>
+            <th>Method</th>
+            <th>URL</th>
+            <th>Description</th>
+          </tr>
+          <tr>
+            <th>GET</th>
+            <th>/</th>
+            <th>Brings you to the API Usage Page that you are currently on.</th>
+          </tr>
+          <tr>
+            <th>GET</th>
+            <th>/Users</th>
+            <th>Returns a list of all of the current users.</th>
+          </tr>
+          <tr>
+            <th>POST</th>
+            <th>/User</th>
+            <th>
+              Posts a new User with the following properties. UserID, FirstName,
+              LastName, EmailAddress, Password
+            </th>
+          </tr>
+          <tr>
+            <th>GET</th>
+            <th>/User/{ID}</th>
+            <th>Returns a specified user if it exists.</th>
+          </tr>
+          <tr>
+            <th>PATCH</th>
+            <th>/User/{ID}</th>
+            <th>
+              Allows you to update a users properties if they exist. (Not
+              including their UserID).
+            </th>
+          </tr>
+          <tr>
+            <th>DELETE</th>
+            <th>/User/{ID}</th>
+            <th>Allows you to delete a user if they exist.</th>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>

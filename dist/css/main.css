@@ -1,0 +1,142 @@
+.py-1 {
+  padding: 1rem 0; }
+
+.py-2 {
+  padding: 2rem 0; }
+
+.py-3 {
+  padding: 3rem 0; }
+
+.py-4 {
+  padding: 4rem 0; }
+
+.my-1 {
+  margin: 1rem 0; }
+
+.my-2 {
+  margin: 2rem 0; }
+
+.my-3 {
+  margin: 3rem 0; }
+
+.my-4 {
+  margin: 4rem 0; }
+
+span.secondary {
+  color: #164f91; }
+
+span.money {
+  color: #19b366; }
+
+.bg-lightblue {
+  background: #def9fa; }
+
+.bg-main {
+  background: #eae7dc; }
+
+.bg-secondary {
+  background: #164f91; }
+
+.bg-light {
+  background: #ddd; }
+
+.bg-dark {
+  background: #333; }
+
+.bg-medium {
+  background: #8e8d8a; }
+
+.container {
+  max-width: 1420px;
+  margin: auto;
+  overflow: hidden;
+  padding: 0 1.5rem; }
+
+.btn-main, .btn-light, .btn-dark {
+  display: inline-block;
+  padding: 0.8rem 2rem;
+  transition: all 0.5s;
+  border: none;
+  cursor: pointer;
+  border-radius: 0.25rem; }
+
+.btn-main {
+  color: #333;
+  background-color: #eae7dc; }
+
+.btn-light {
+  color: #333;
+  background-color: #ddd; }
+
+.btn-dark {
+  color: #f4f4f4;
+  background-color: #333; }
+
+.section-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center; }
+
+.heading {
+  font-size: 2rem;
+  padding-top: 1rem;
+  color: #164f91; }
+
+.section-text {
+  padding-bottom: 1rem;
+  font-weight: 300; }
+
+.underline {
+  border-bottom: 2px solid #8e8d8a; }
+
+.list li {
+  padding: 0.5rem 0;
+  border-bottom: #555 dotted 1px;
+  margin-right: 0; }
+  .list li:last-child {
+    border-bottom: none; }
+  .list li:hover a:hover {
+    color: #e98074; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: "Ubuntu", sans-serif;
+  line-height: 1.6;
+  background: #eae7dc; }
+
+a {
+  text-decoration: none;
+  color: #000; }
+
+ul {
+  list-style: none; }
+
+img {
+  width: 100%;
+  display: block; }
+
+.heading {
+  width: 100%;
+  text-align: center; }
+
+.textbox {
+  width: 100%;
+  padding: 5px 5px;
+  margin: 5px 0px; }
+  .textbox:hover {
+    opacity: 0.8; }
+
+.heading {
+  width: 100%;
+  text-align: center; }
+  .heading .api tr {
+    color: #19b366;
+    background-color: black; }
+  .heading .api th {
+    padding: 10px 10px; }
